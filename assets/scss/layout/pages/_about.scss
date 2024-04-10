@@ -1,0 +1,58 @@
+@use "../../utils" as *;
+
+.tp-about {
+  &-area {
+    & h2 {
+      font-size: 60px;
+      color: #0a0e19;
+    }
+  }
+  &-img {
+    & img {
+      border-radius: 20px;
+    }
+  }
+}
+
+.tp-video {
+  &-icon {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #57595c;
+    border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-text {
+    & h4 {
+      color: #57595c;
+    }
+  }
+}
+
+.tp-about-title-paragraph {
+  color: #57595c;
+  b {
+    color: #0a0e19;
+  }
+}
+
+.tp-bg-star {
+  &-1 {
+    top: 523px;
+    left: 61px;
+    z-index: 1;
+  }
+  &-2 {
+    left: 1600px;
+    top: 79px;
+    z-index: 1;
+  }
+  &-3 {
+    left: 738px;
+    top: 772px;
+    z-index: 1;
+  }
+}
